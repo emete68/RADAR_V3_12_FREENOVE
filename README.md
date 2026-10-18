@@ -18,7 +18,7 @@ Proyecto para la **Freenove ESP32-S3 3,5 pulgadas capacitiva FNK0104N**, pantall
 
 Incluye fuentes PlatformIO, binarios de grabación, base de 1.075 puntos oficiales, originales descargados, auditoría y pruebas. El proyecto anterior de PCB propia y la versión FNK0104B se conservan en sus carpetas originales.
 
-**Estado:** compilado y comprobado por software. El 16/09/2026 se corrigieron el modo de grabación del cargador y los comandos QSPI sin datos. La placa real arranca e informa pantalla=1, táctil=1, audio=1 y 1.075 registros. El usuario confirma que la pantalla funciona. También se corrigió el temporizador que podía cancelar inmediatamente TEST AUDIO. El usuario confirma que TEST AUDIO suena tras la corrección. Pendiente prueba del GPS.
+**Estado:** compilado y comprobado por software. El 16/09/2026 se corrigieron el modo de grabación del cargador y los comandos QSPI sin datos. La placa real arranca e informa pantalla=1, táctil=1, audio=1 y 1.075 registros. 
 
 ## Montaje
 
