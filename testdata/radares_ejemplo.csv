@@ -1,0 +1,4 @@
+id,latitud,longitud,velocidad,tipo,direccion
+TEST-MAD-001,40.416775,-3.703790,50,fijo,0
+TEST-BCN-001,41.387397,2.168568,50,semaforo,180
+

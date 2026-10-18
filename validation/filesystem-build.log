@@ -1,0 +1,29 @@
+Processing freenove_fnk0104n (platform: espressif32 @ 7.1.3; board: esp32-s3-devkitc-1; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitc-1.html
+PLATFORM: Espressif 32 (7.1.3) > Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (esp-builtin) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 4.20017.260907+sha.dcc1105b 
+ - tool-esptoolpy @ 2.41100.260830 (4.11.0) 
+ - tool-mklittlefs @ 1.203.210628 (2.3) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 
+ - toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 36 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- TinyGPSPlus @ 1.1.0
+|-- TFT_eSPI @ 2.5.43
+|-- es8311
+|-- ArduinoOTA @ 2.0.0
+|-- WiFi @ 2.0.0
+|-- LittleFS @ 2.0.0
+|-- Wire @ 2.0.0
+Building in release mode
+Building FS image from 'data' directory to .pio\build\freenove_fnk0104n\littlefs.bin
+/radars.bin
+========================= [SUCCESS] Took 1.80 seconds =========================

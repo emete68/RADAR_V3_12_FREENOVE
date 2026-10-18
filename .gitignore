@@ -1,0 +1,15 @@
+# Artefactos generados por PlatformIO y Python: se reconstruyen localmente.
+.pio/
+__pycache__/
+*.pyc
+
+# Copias completas de flash creadas durante una grabación: pueden contener
+# configuración de la placa y no deben formar parte de un repositorio público.
+backups/
+*.backup.bin
+*before-*.bin
+
+# Archivos de sistema y de los editores.
+.DS_Store
+Thumbs.db
+.vscode/

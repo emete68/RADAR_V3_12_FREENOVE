@@ -1,0 +1,12 @@
+test_binary_matches_every_normalized_record (__main__.OfficialTests.test_binary_matches_every_normalized_record) ... ok
+test_dgt_no_invented_limits (__main__.OfficialTests.test_dgt_no_invented_limits) ... ok
+test_euskadi_reference (__main__.OfficialTests.test_euskadi_reference) ... ok
+test_invalid_csv_coordinates (__main__.OfficialTests.test_invalid_csv_coordinates) ... ok
+test_preserved_original_firmware (__main__.OfficialTests.test_preserved_original_firmware) ... ok
+test_sct_first_location (__main__.OfficialTests.test_sct_first_location) ... ok
+test_sct_rejects_broken_coordinate (__main__.OfficialTests.test_sct_rejects_broken_coordinate) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.725s
+
+OK

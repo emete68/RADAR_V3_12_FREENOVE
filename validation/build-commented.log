@@ -1,0 +1,128 @@
+Processing freenove_fnk0104n (platform: espressif32 @ 7.1.3; board: esp32-s3-devkitc-1; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitc-1.html
+PLATFORM: Espressif 32 (7.1.3) > Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (esp-builtin) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 4.20017.260907+sha.dcc1105b 
+ - tool-esptoolpy @ 2.41100.260830 (4.11.0) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 
+ - toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 36 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- TinyGPSPlus @ 1.1.0
+|-- TFT_eSPI @ 2.5.43
+|-- es8311
+|-- ArduinoOTA @ 2.0.0
+|-- WiFi @ 2.0.0
+|-- LittleFS @ 2.0.0
+|-- Wire @ 2.0.0
+Building in release mode
+Compiling .pio\build\freenove_fnk0104n\src\GeoMath.cpp.o
+Archiving .pio\build\freenove_fnk0104n\libfc9\libTinyGPSPlus.a
+Archiving .pio\build\freenove_fnk0104n\lib361\libSPI.a
+Compiling .pio\build\freenove_fnk0104n\lib201\FS\FS.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib201\FS\vfs_api.cpp.o
+Compiling .pio\build\freenove_fnk0104n\libc5f\SPIFFS\SPIFFS.cpp.o
+Compiling .pio\build\freenove_fnk0104n\libacd\LittleFS\LittleFS.cpp.o
+Compiling .pio\build\freenove_fnk0104n\libb03\TFT_eSPI\TFT_eSPI.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib9b4\es8311\es8311.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib6d6\Update\HttpsOTAUpdate.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib6d6\Update\Updater.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib5bc\WiFi\WiFi.cpp.o
+Archiving .pio\build\freenove_fnk0104n\lib9b4\libes8311.a
+Compiling .pio\build\freenove_fnk0104n\lib5bc\WiFi\WiFiAP.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib5bc\WiFi\WiFiClient.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib5bc\WiFi\WiFiGeneric.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib5bc\WiFi\WiFiMulti.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib5bc\WiFi\WiFiSTA.cpp.o
+Archiving .pio\build\freenove_fnk0104n\libc5f\libSPIFFS.a
+Archiving .pio\build\freenove_fnk0104n\lib201\libFS.a
+In file included from .pio/libdeps/freenove_fnk0104n/TFT_eSPI/TFT_eSPI.cpp:16:
+.pio/libdeps/freenove_fnk0104n/TFT_eSPI/TFT_eSPI.h:973:8: warning: #warning >>>>------>> TOUCH_CS pin not defined, TFT_eSPI touch functions will not be available! [-Wcpp]
+       #warning >>>>------>> TOUCH_CS pin not defined, TFT_eSPI touch functions will not be available!
+        ^~~~~~~
+Compiling .pio\build\freenove_fnk0104n\lib5bc\WiFi\WiFiScan.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib5bc\WiFi\WiFiServer.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib5bc\WiFi\WiFiUdp.cpp.o
+Archiving .pio\build\freenove_fnk0104n\libacd\libLittleFS.a
+Compiling .pio\build\freenove_fnk0104n\lib46e\ESPmDNS\ESPmDNS.cpp.o
+Archiving .pio\build\freenove_fnk0104n\lib6d6\libUpdate.a
+Compiling .pio\build\freenove_fnk0104n\lib8eb\ArduinoOTA\ArduinoOTA.cpp.o
+Compiling .pio\build\freenove_fnk0104n\lib3d1\Wire\Wire.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\Esp.cpp.o
+Archiving .pio\build\freenove_fnk0104n\libb03\libTFT_eSPI.a
+Archiving .pio\build\freenove_fnk0104n\lib5bc\libWiFi.a
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\IPAddress.cpp.o
+Archiving .pio\build\freenove_fnk0104n\lib46e\libESPmDNS.a
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\Tone.cpp.o
+Archiving .pio\build\freenove_fnk0104n\lib3d1\libWire.a
+Archiving .pio\build\freenove_fnk0104n\lib8eb\libArduinoOTA.a
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\main.cpp.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\freenove_fnk0104n\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\freenove_fnk0104n\libFrameworkArduino.a
+Linking .pio\build\freenove_fnk0104n\firmware.elf
+Retrieving maximum program size .pio\build\freenove_fnk0104n\firmware.elf
+Checking size .pio\build\freenove_fnk0104n\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  13.9% (used 45628 bytes from 327680 bytes)
+Flash: [===       ]  27.3% (used 857433 bytes from 3145728 bytes)
+Building .pio\build\freenove_fnk0104n\firmware.bin
+esptool.py v4.11.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+========================= [SUCCESS] Took 26.17 seconds =========================
+
+********************************************************************************
+There is a new version 6.2.0 of PlatformIO available.
+Please upgrade it via `platformio upgrade` or `python -m pip install -U platformio` command.
+Changes: https://docs.platformio.org/en/latest/history.html
+********************************************************************************
+
