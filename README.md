@@ -5,10 +5,10 @@
 > Se ha diseñado para ser lo más sencillo posible de montar, grabar, usar y
 > actualizar, siempre respetando la normativa aplicable durante la conducción.
 
-![Diseño de la carcasa imprimible del RADAR V3.12](docs/images/radar-v3-12-carcasa.png)
+![RADAR V3.12 en funcionamiento](docs/images/radar-v3-12-en-funcionamiento.png)
 
-*Diseño imprimible de la carcasa desmontable para la pantalla, el altavoz,
-el receptor GPS y su antena.*
+*Prototipo RADAR V3.12 funcionando en la pantalla Freenove FNK0104N, a la
+espera de posición GPS.*
 
 > **Copia comentada (18/10/2026):** este directorio incluye explicaciones
 > detalladas del código propio y un binario recompilado que coincide con la
