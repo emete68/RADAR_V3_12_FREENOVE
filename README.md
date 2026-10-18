@@ -5,6 +5,11 @@
 > Se ha diseñado para ser lo más sencillo posible de montar, grabar, usar y
 > actualizar, siempre respetando la normativa aplicable durante la conducción.
 
+![Diseño de la carcasa imprimible del RADAR V3.12](docs/images/radar-v3-12-carcasa.png)
+
+*Diseño imprimible de la carcasa desmontable para la pantalla, el altavoz,
+el receptor GPS y su antena.*
+
 > **Copia comentada (18/10/2026):** este directorio incluye explicaciones
 > detalladas del código propio y un binario recompilado que coincide con la
 > fuente incluida. Empieza por `docs/GUIA_CODIGO_COMENTADO.md`.
