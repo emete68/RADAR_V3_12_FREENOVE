@@ -1,5 +1,10 @@
 # RADAR V3.12 — Freenove FNK0104N táctil
 
+> **Avisador GPS basado en información pública.** Este proyecto utiliza
+> bases de datos oficiales de radares publicadas por organismos de tráfico.
+> Se ha diseñado para ser lo más sencillo posible de montar, grabar, usar y
+> actualizar, siempre respetando la normativa aplicable durante la conducción.
+
 > **Copia comentada (18/10/2026):** este directorio incluye explicaciones
 > detalladas del código propio y un binario recompilado que coincide con la
 > fuente incluida. Empieza por `docs/GUIA_CODIGO_COMENTADO.md`.
