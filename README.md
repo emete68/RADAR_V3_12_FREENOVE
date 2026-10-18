@@ -1,4 +1,4 @@
-# RADAR V3.12 — Freenove FNK0104N táctil
+# RADAR V3.12 
 
 > **Avisador GPS basado en información pública.** Este proyecto utiliza
 > bases de datos oficiales de radares publicadas por organismos de tráfico.
